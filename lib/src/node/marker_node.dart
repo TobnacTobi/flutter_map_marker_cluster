@@ -22,4 +22,7 @@ class MarkerNode implements Marker {
 
   @override
   double get width => marker.width;
+  
+  @override
+  dynamic get data => marker.data;
 }
