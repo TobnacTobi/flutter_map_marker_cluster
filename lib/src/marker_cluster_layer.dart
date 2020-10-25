@@ -667,6 +667,7 @@ class _MarkerClusterLayerState extends State<MarkerClusterLayer>
       // GestureDetector gets triggered per gesture (usually the child one) and
       // therefore this _onMarkerTap function never gets called.
       if (widget.options.onMarkerTap != null) {
+        print('Worked');
         widget.options.onMarkerTap(marker.marker);
       }
 
